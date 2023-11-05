@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1a0900;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    flex-grow: 6;
+    margin: 10px;
+    height: 35px;
+    font-size: 25px;
+}
+
+#add-btn{
+    flex-grow: 2;
+    margin: 10px;
+    height: 35px;
+    font-size: 25px;
+    background-color: #993600;
+    color: rgb(237, 202, 190);
+}
+
+#add-btn:hover{
+    background-color: aquamarine;
+    color: #993600;
+}
+
+
+
+li{
+    list-style-type: none;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 35px;
+    font-size: 25px;
+    width: 50%;
+    background-color: #993600;
+    color: rgb(237, 202, 190);
+}
