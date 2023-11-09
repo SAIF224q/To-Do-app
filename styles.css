@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #1a0900;
+    background-color: #5253a4;
 }
 
 div{
@@ -22,14 +22,10 @@ div{
     margin: 10px;
     height: 35px;
     font-size: 25px;
-    background-color: #993600;
-    color: rgb(237, 202, 190);
+    background-color: #d5d5f7;
+    color: black;
 }
 
-#add-btn:hover{
-    background-color: aquamarine;
-    color: #993600;
-}
 
 
 
@@ -41,6 +37,15 @@ li{
     height: 35px;
     font-size: 25px;
     width: 50%;
-    background-color: #993600;
-    color: rgb(237, 202, 190);
+    background-color: #d5d5f7;
+    color: black;
+    display:flex;
+}
+
+.done{
+    margin-left:auto;
+    background-color: #5253a4;
+    color:white;
+    font-weight: bold;
+    border: none;
 }
